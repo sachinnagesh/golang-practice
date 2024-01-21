@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/sachinnagesh/golang-practice/internal/gobyexample"
-)
+import "github.com/sachinnagesh/golang-practice/internal/gobyexample"
 
 func main() {
 	//internal.TestStatictype()
@@ -15,6 +13,9 @@ func main() {
 	//internal.ReassignVariablesExamp()
 	//internal.VariableScopeExamp()
 	//internal.TypeConversion()
-	gobyexample.ValuesExample()
+	//gobyexample.ValuesExample()
+	//gobyexample.VariablesExample()
+	//gobyexample.ConstantExample()
+	gobyexample.ForLoopExample()
 
 }
