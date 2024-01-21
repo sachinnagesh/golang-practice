@@ -7,3 +7,5 @@ Contains basic practice examples for Golang
 - reassign variables
 - scope of variables
 - type conversion
+
+Also added `gobyexample` code here
