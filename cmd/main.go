@@ -16,6 +16,8 @@ func main() {
 	//gobyexample.ValuesExample()
 	//gobyexample.VariablesExample()
 	//gobyexample.ConstantExample()
-	gobyexample.ForLoopExample()
+	//gobyexample.ForLoopExample()
+	//gobyexample.IfElseExample()
+	gobyexample.SwitchExample()
 
 }
