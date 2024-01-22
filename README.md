@@ -9,3 +9,9 @@ Contains basic practice examples for Golang
 - type conversion
 
 Also added `gobyexample` code here
+- values
+- variables
+- constant
+- `for` loop
+- `if/else`
+- swicth
