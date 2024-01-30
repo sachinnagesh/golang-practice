@@ -1,5 +1,7 @@
 package main
 
+import "github.com/sachinnagesh/golang-practice/internal/channelexamp"
+
 func main() {
 	//internal.TestStatictype()
 	//internal.PrintHelloWorld()
@@ -25,5 +27,7 @@ func main() {
 	//channelexamp.BufferedChannelDeadLockReceiver()
 	//channelexamp.ChannelWithGoRoutineNoBlocking()
 	//channelexamp.ChannelWithGoRoutineWithBlock()
+	//channelexamp.UnbufferedChannelWithoutBlock()
+	channelexamp.UnbufferedChannelDeadlockSender()
 
 }
