@@ -1,7 +1,5 @@
 package main
 
-import "github.com/sachinnagesh/golang-practice/internal/gobyexample"
-
 func main() {
 	//internal.TestStatictype()
 	//internal.PrintHelloWorld()
@@ -18,6 +16,14 @@ func main() {
 	//gobyexample.ConstantExample()
 	//gobyexample.ForLoopExample()
 	//gobyexample.IfElseExample()
-	gobyexample.SwitchExample()
+	//gobyexample.SwitchExample()
+	//gobyexample.ArrayExample()
+	//gobyexample.DeferExample()
+
+	//channelexamp.BufferedChannelWithoutBlock()
+	//channelexamp.BufferedChannelDeadLockSender()
+	//channelexamp.BufferedChannelDeadLockReceiver()
+	//channelexamp.ChannelWithGoRoutineNoBlocking()
+	//channelexamp.ChannelWithGoRoutineWithBlock()
 
 }
