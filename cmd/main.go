@@ -1,6 +1,6 @@
 package main
 
-import "github.com/sachinnagesh/golang-practice/internal/channelexamp"
+import "github.com/sachinnagesh/golang-practice/internal/gocontext"
 
 func main() {
 	//internal.TestStatictype()
@@ -22,12 +22,18 @@ func main() {
 	//gobyexample.ArrayExample()
 	//gobyexample.DeferExample()
 
+	//Channel example
+
 	//channelexamp.BufferedChannelWithoutBlock()
 	//channelexamp.BufferedChannelDeadLockSender()
 	//channelexamp.BufferedChannelDeadLockReceiver()
 	//channelexamp.ChannelWithGoRoutineNoBlocking()
 	//channelexamp.ChannelWithGoRoutineWithBlock()
 	//channelexamp.UnbufferedChannelWithoutBlock()
-	channelexamp.UnbufferedChannelDeadlockSender()
+	//channelexamp.UnbufferedChannelDeadlockSender()
+
+	//Go Context Example
+	gocontext.CreateContextWithTODO()
+	gocontext.CreateContextWithBackground()
 
 }
