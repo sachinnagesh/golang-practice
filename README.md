@@ -7,6 +7,13 @@ Contains basic practice examples for Golang
 - reassign variables
 - scope of variables
 - type conversion
+- channel
+- go routines
+- go context with value
+- go context with cancel
+- go context with deadline
+- go context with timeout
+
 
 Also added `gobyexample` code here
 - values
@@ -14,4 +21,4 @@ Also added `gobyexample` code here
 - constant
 - `for` loop
 - `if/else`
-- swicth
+- switch

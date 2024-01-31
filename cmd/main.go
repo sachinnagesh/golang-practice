@@ -38,6 +38,7 @@ func main() {
 	//gocontext.CreateContextWithValue()
 	//gocontext.ContextWithCancelExample1()
 	//gocontext.ContextWithCancelExample2()
-	gocontext.ContextWithDeadline()
+	//gocontext.ContextWithDeadline()
+	gocontext.ContextWithTimeout()
 
 }
