@@ -35,6 +35,8 @@ func main() {
 	//Go Context Example
 	//gocontext.CreateContextWithTODO()
 	//gocontext.CreateContextWithBackground()
-	gocontext.CreateContextWithValue()
+	//gocontext.CreateContextWithValue()
+	//gocontext.ContextWithCancelExample1()
+	gocontext.ContextWithCancelExample2()
 
 }

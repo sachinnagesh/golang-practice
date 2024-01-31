@@ -3,7 +3,6 @@ package gocontext
 import (
 	"context"
 	"fmt"
-	"time"
 )
 
 /**
@@ -18,11 +17,8 @@ func CreateContextWithValue() {
 
 	ctx = context.WithValue(ctx, "key1", "value1")
 	printconextkeyandvalue(ctx)
-	time.NewTicker(500 * time.Millisecond)
-
 }
 
 func printconextkeyandvalue(ctx context.Context) {
 	fmt.Println("Context value with key : key1 is ", ctx.Value("key1"))
-
 }
