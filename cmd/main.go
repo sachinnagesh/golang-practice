@@ -1,6 +1,8 @@
 package main
 
-import "github.com/sachinnagesh/golang-practice/internal/gocontext"
+import (
+	"github.com/sachinnagesh/golang-practice/internal/gobyexample"
+)
 
 func main() {
 	//internal.TestStatictype()
@@ -21,6 +23,7 @@ func main() {
 	//gobyexample.SwitchExample()
 	//gobyexample.ArrayExample()
 	//gobyexample.DeferExample()
+	gobyexample.MutexExamp()
 
 	//Channel example
 
@@ -39,6 +42,6 @@ func main() {
 	//gocontext.ContextWithCancelExample1()
 	//gocontext.ContextWithCancelExample2()
 	//gocontext.ContextWithDeadline()
-	gocontext.ContextWithTimeout()
+	//gocontext.ContextWithTimeout()
 
 }
